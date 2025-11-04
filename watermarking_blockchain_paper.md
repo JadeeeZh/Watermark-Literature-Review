@@ -74,7 +74,7 @@ Figure 1 below illustrates the overall architecture of our proposed on-chain pro
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    AI-GENERATED CONTENT PROVENANCE SYSTEM             │
+│                    AI-GENERATED CONTENT PROVENANCE SYSTEM           │
 └─────────────────────────────────────────────────────────────────────┘
 
 STEP 1: CONTENT GENERATION & WATERMARKING
@@ -161,13 +161,13 @@ STEP 5: DERIVATIVE CREATION (Optional)
                     └─────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────┐
-│              ROYALTY DISTRIBUTION (Smart Contract)                    │
-│                                                                       │
-│  When content generates revenue (sale, licensing, ad revenue):       │
-│  1. Smart contract reads provenance graph from blockchain            │
-│  2. Calculates royalty splits based on recorded percentages          │
-│  3. Automatically distributes payments to all contributors           │
-│     (original creator → intermediate editors → current owner)        │
+│              ROYALTY DISTRIBUTION (Smart Contract)                  │
+│                                                                     │
+│  When content generates revenue (sale, licensing, ad revenue):      │
+│  1. Smart contract reads provenance graph from blockchain           │
+│  2. Calculates royalty splits based on recorded percentages         │
+│  3. Automatically distributes payments to all contributors          │
+│     (original creator → intermediate editors → current owner)       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
