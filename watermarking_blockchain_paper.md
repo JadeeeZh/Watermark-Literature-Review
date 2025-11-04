@@ -263,46 +263,88 @@ The combination of lightweight watermark verification and automated on-chain roy
 ## 7. References
 
 [1] Cloudflare Blog. "AI-generated content watermarking and authentication." blog.cloudflare.com
+
 [2] Reuters. "Artists sue AI companies over copyright infringement." reuters.com
+
 [3] Zhao, X., et al. "SoK: Watermarking for AI-Generated Content." arXiv:2411.18479 (2024).
+
 [4] Balan, K., et al. "Content ARCs: Decentralized Content Rights in the Age of Generative AI." arXiv:2503.14519 (2025).
+
 [5] Zhang, W., Zhang, Q., Zhu, Y. "Blockchain-Based Protected Digital Copyright Management with Digital Watermarking." Journal of Systems Science and Information (2020).
+
 [6] Li, Y., Zhang, H., Wang, K. "WFB: Watermarking-based Copyright Protection Framework for Federated Learning Model via Blockchain." Scientific Reports 14, 17237 (2024).
+
 [7] Lüthi, P., et al. "Distributed Ledger for Provenance Tracking of AI Assets." arXiv:2002.11000 (2020).
+
 [8] Ahmed, I., et al. "Blockchain for video watermarking: An enhanced copyright protection approach for video forensics based on perceptual hash function." PLOS ONE 19(10): e0308451 (2024).
+
 [9] Chen, Y., et al. "A novel blockchain-watermarking mechanism utilizing interplanetary file system and fast walsh hadamard transform." Scientific Reports 14, 22015 (2024).
+
 [10] Parola Analytics. "Countering deepfakes using digital watermarks and blockchain technology." Parola Blog (Aug 11, 2021).
+
 [11] CBS News. "AI-generated Pope Francis image fools millions." cbsnews.com
+
 [12] Avast Blog. "Criminals use AI voice cloning for fraud." blog.avast.com
+
 [13] Numbers Protocol. "Blockchain-based content provenance." numbersprotocol.io
+
 [14] Balan, K., Gilbert, A., & Collomosse, J. (2025). Content ARCs: Decentralized Content Rights in the Age of Generative AI. ArXiv. https://arxiv.org/abs/2503.14519
+
 [15] Makridis CA, Ammons JD. Governing the large language model commons: using digital assets to endow intellectual property rights. Journal of Institutional Economics. 2025;21:e19. 
+
 [16] The Verge. "Google's SynthID watermark for AI images." theverge.com
+
 [17] Brooks-Mejia, T., Patton, C. "An early look at cryptographic watermarks for AI-generated content." Cloudflare Blog (Mar 19, 2025).
+
 [18] Liu, A., et al. "An Unforgeable Publicly Verifiable Watermark for LLMs." ICLR 2024.
+
 [19] Custos Tech. "Digital fingerprinting for content tracking." custostech.com
+
 [20] Custos Tech. "Forensic watermarks explained." custostech.com
+
 [21] Saini, L. K., & Shrivastava, V. (2014). A Survey of Digital Watermarking Techniques and its Applications. ArXiv. https://arxiv.org/abs/1407.4735
+
 [22] Wen, Y., et al. "Tree-Ring Watermarks: Invisible Fingerprints for Diffusion Images." NeurIPS 2023.
+
 [23] Fernandez, P., Couairon, G., Jégou, H., Douze, M., Furon, T. "The Stable Signature: Rooting Watermarks in Latent Diffusion Models." ICCV 2023, pp. 22466-22477.
+
 [24] Zhao, Y., Pang, T., Du, C., Yang, X., Cheung, N.-M., Lin, M. "A Recipe for Watermarking Diffusion Models." arXiv:2303.10137 (2023).
+
 [25] Reddit. "Audio watermarking frequency techniques." reddit.com
+
 [26] Kirchenbauer, J., Geiping, J., Wen, Y., Katz, J., Miers, I., Goldstein, T. "A Watermark for Large Language Models." ICML 2023, pp. 17061-17084.
+
 [27] TechCrunch. "OpenAI's attempts to watermark AI text hit limits." TechCrunch (Dec 10, 2022).
+
 [28] Dathathri, S., et al. "Scalable watermarking for identifying large language model outputs." Nature 634(8035), 818-823 (Oct 2024).
+
 [29] Spectrum IEEE. "Google DeepMind SynthID for text." spectrum.ieee.org
+
 [30] Fernandez, P., et al. "VideoSeal: Open and Efficient Video Watermarking." arXiv:2412.09492 (2024).
+
 [31] Gunn, S., Zhao, X., Song, D. "An Undetectable Watermark for Generative Image Models." arXiv:2410.07369 (2024).
+
 [32] Christ, M., Gunn, S. "Pseudorandom Error-Correcting Codes." IACR Cryptology ePrint Archive 2024/235 (2024).
+
 [33] Bui, T., Agarwal, S., Collomosse, J. "TrustMark: Universal Watermarking for Arbitrary Resolution Images." arXiv:2311.18297 (2023).
+
 [34] Liu, A., Pan, L., Hu, X., Meng, S., Wen, L. "A Semantic Invariant Robust Watermark for Large Language Models." ICLR 2024.
+
 [35] Christ, M., Gunn, S., Zamir, O. "Undetectable Watermarks for Language Models." COLT 2024, pp. 1125-1139.
+
 [36] Nandi, S. "Enhancing AI Transparency: Researchers Develop Advanced Watermarking Techniques." AZoAI News (Dec 5, 2024).
+
 [37] Zhao, X., et al. "Invisible Image Watermarks are Provably Removable Using Generative AI." arXiv:2306.01953 (2023).
+
 [38] TechCrunch. "Statistical watermark detection methods." techcrunch.com
+
 [39] Spectrum IEEE. "DeepMind watermark in Gemini." spectrum.ieee.org
+
 [40] Life Architect. "OpenAI watermarking hints." lifearchitect.ai
+
 [41] Life Architect. "Transparency in AI outputs." lifearchitect.ai
+
 [42] Pan, L., et al. "MarkLLM: An Open-Source Toolkit for LLM Watermarking." EMNLP 2024 System Demonstrations, pp. 61-71.
+
 [43] Chen, Y., et al. "Dynamic Watermarks in Images Generated by Diffusion Models." arXiv:2502.08927 (2025).
 
