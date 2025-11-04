@@ -197,27 +197,6 @@ When a piece of content is registered on-chain (as described above), the creator
 
 When a content is monetized – for instance, sold as an NFT, licensed for use in a game, or generating ad revenue on a platform – an event is sent to the blockchain to share the revenue among entitled parties. Take a simple case: content C (ID=C) is a derivative of B (parent) and A (grandparent). Now someone purchases content C's NFT for 100 tokens, or perhaps content C generates 100 tokens of advertising revenue on a platform. We have on-chain rules (from earlier registrations) that say, for example, "A gets 5% of derivative sales" and "B gets 10%" [6]. A specialized **royalty smart contract** is deployed which knows how to traverse the content lineage graph and gather applicable royalties. When the sale occurs, the platform or marketplace contract would call the royalty contract, passing in content C's ID and the payment amount (100). The royalty contract looks up C's on-chain record to see if it has any parent content. It finds B as parent and A as grandparent via the links [6,7]. It then looks up B's royalty rule (say B's creator set 10%) and A's royalty rule (5%) [6]. It sums these into a total royalty obligation (in this case 15% of the sale). The contract would then split the 100 tokens: 5 tokens routed to A's registered payout address, 10 tokens to B's address, and the remaining 85 tokens to the seller (C's owner). This forms a **"royalty stack"** – each ancestor in the content's provenance chain contributes a slice according to their defined percentage [7]. If any content in the chain had opted out of royalties (e.g. declared a public domain or 0% royalty license), the contract would note that as 0%. If multiple rules apply (say the model demands 2% and the artist demands 5% on the same piece), those could be aggregated or given priority according to the license agreements (potentially handled via more complex logic or tiered contracts). The entire calculation and transfer of funds happens automatically and near-instantly on-chain once triggered. By programming this into a contract, we remove the need for manual royalty accounting or trust in intermediaries – creators get their share directly according to code.
 
-#### 5.2.1 Safe Royalty Formula & Anti-Abuse Guards
-
-Let total payout be P. Let U be the set of upstream ancestors; for each ancestor i ∈ U, let base share rᵢ ∈ [0, 1] and depth d(i) ∈ {1, 2, ...} (parent=1, grandparent=2, ...). Let α ∈ (0, 1] be a geometric decay and R_max ∈ (0, 1] the upstream cap.
-
-**Per-ancestor payout:**
-
-pᵢ = P · rᵢ · α^d(i)
-
-**Total upstream share:**
-
-R = Σ(i∈U) rᵢ α^d(i)    with    R ≤ R_max    (e.g., R_max = 0.20)
-
-**Contract checks (reject if any fail):**
-
-- Σ(i∈U) rᵢ α^d(i) ≤ R_max
-
-- detector_conf(content → i) ≥ t (watermark confidence threshold)
-
-- ancestor_count ≤ N (depth/width bound)
-
-- (optional) similarity(content, i) ≥ τ to prevent Sybil micro-ancestors
 
 ### 5.3 Royalty Vaults and Withdrawals
 
