@@ -288,7 +288,7 @@ The combination of lightweight watermark verification and automated on-chain roy
 
 [13] Numbers Protocol. "Blockchain-based content provenance." numbersprotocol.io
 
-[14] Balan, K., Gilbert, A., & Collomosse, J. (2025). Content ARCs: Decentralized Content Rights in the Age of Generative AI. ArXiv. https://arxiv.org/abs/2503.14519
+[14] Balan, K., Gilbert, A., & Collomosse, J. Content ARCs: Decentralized Content Rights in the Age of Generative AI. ArXiv. arXiv:2503.14519(2025)
 
 [15] Makridis CA, Ammons JD. Governing the large language model commons: using digital assets to endow intellectual property rights. Journal of Institutional Economics. 2025;21:e19. 
 
@@ -302,7 +302,7 @@ The combination of lightweight watermark verification and automated on-chain roy
 
 [20] Custos Tech. "Forensic watermarks explained." custostech.com
 
-[21] Saini, L. K., & Shrivastava, V. (2014). A Survey of Digital Watermarking Techniques and its Applications. ArXiv. https://arxiv.org/abs/1407.4735
+[21] Saini, L. K., & Shrivastava, V. A Survey of Digital Watermarking Techniques and its Applications. ArXiv. arXiv:1407.4735
 
 [22] Wen, Y., et al. "Tree-Ring Watermarks: Invisible Fingerprints for Diffusion Images." NeurIPS 2023.
 
